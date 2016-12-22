@@ -1,0 +1,45 @@
+
+/* Class = "UIButton"; normalTitle = "Оставить заявку"; ObjectID = "4nI-Qk-rSd"; */
+"4nI-Qk-rSd.normalTitle" = "Оставить заявку";
+
+/* Class = "UILabel"; text = "Телефон"; ObjectID = "9qQ-CD-tTg"; */
+"9qQ-CD-tTg.text" = "Телефон";
+
+/* Class = "UILabel"; text = "Lab"; ObjectID = "LmR-jv-YII"; */
+"LmR-jv-YII.text" = "Lab";
+
+/* Class = "UIButton"; normalTitle = "Кейсы"; ObjectID = "Qil-Ih-VA9"; */
+"Qil-Ih-VA9.normalTitle" = "Журнал событий";
+
+/* Class = "UILabel"; text = "PERPETUUM"; ObjectID = "Rw3-iA-vaY"; */
+"Rw3-iA-vaY.text" = "PERPETUUM";
+
+/* Class = "UITextField"; text = "+7 (927) 123 45 -67"; ObjectID = "SRJ-JJ-Daj"; */
+"SRJ-JJ-Daj.text" = "+7 (927) 123 45 -67";
+
+/* Class = "UINavigationItem"; title = "Вакансии"; ObjectID = "SkW-TA-rK8"; */
+"SkW-TA-rK8.title" = "Выход";
+
+/* Class = "UINavigationItem"; title = "Оставить заявку"; ObjectID = "XOj-2G-dV3"; */
+"XOj-2G-dV3.title" = "Оставить заявку";
+
+/* Class = "UILabel"; text = "MOBILE"; ObjectID = "ZHM-gk-kmK"; */
+"ZHM-gk-kmK.text" = "MOBILE";
+
+/* Class = "UIButton"; normalTitle = "Вакансии"; ObjectID = "fY8-ad-OkM"; */
+"fY8-ad-OkM.normalTitle" = "Выход";
+
+/* Class = "UINavigationItem"; title = "Портфолио"; ObjectID = "j8H-hl-7eu"; */
+"j8H-hl-7eu.title" = "Главная";
+
+/* Class = "UINavigationItem"; title = "Кейсы"; ObjectID = "qVe-6d-sZd"; */
+"qVe-6d-sZd.title" = "Журнал событий";
+
+/* Class = "UINavigationItem"; title = "Контакты"; ObjectID = "qWs-mk-n5S"; */
+"qWs-mk-n5S.title" = "Перезагрузить";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rSq-nQ-eUU"; */
+"rSq-nQ-eUU.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Контакты"; ObjectID = "tYt-Ct-Knt"; */
+"tYt-Ct-Knt.normalTitle" = "Перезагрузить";

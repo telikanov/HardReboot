@@ -1,0 +1,24 @@
+ [
+  {
+  "id":1,
+  "title": "LifeHacker",
+  "description": "блог о жизни, технике и произовительности",
+  "image": "LHMainBoard",
+  "colorHex": "#000000"
+  },
+  {
+  "id":2,
+  "title": "Tele2",
+  "description": "мобильный клиент 4 межрегионального оператора",
+  "image": "Tele2MainBoard",
+  "colorHex": "#FFFFFF"
+  
+  },
+  {
+  "id":3,
+  "title": "DRUM PADS24",
+  "description": "Создавай миксы прямо со смартфона",
+  "image": "DrumPads24MainBoard",
+  "colorHex": "#FFFFFF"
+  }
+]

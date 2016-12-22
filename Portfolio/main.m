@@ -3,14 +3,14 @@
 //  Portfolio
 //
 //  Created by Алексей Теликанов on 24.10.16.
-//  Copyright © 2016 Алексей Теликанов. All rights reserved.
+//  Copyright © 2016 Perpentuum Mobile lab. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import "PMAppDelegate.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([PMAppDelegate class]));
     }
 }

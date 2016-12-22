@@ -3,7 +3,7 @@
 //  PortfolioTests
 //
 //  Created by Алексей Теликанов on 24.10.16.
-//  Copyright © 2016 Алексей Теликанов. All rights reserved.
+//  Copyright © 2016 Perpentuum Mobile lab. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

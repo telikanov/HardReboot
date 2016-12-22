@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSansCyrl_700.otf">
+            <string>MuseoSansCyrl-700</string>
+        </array>
+        <array key="MuseoSansCyrl_900.otf">
+            <string>MuseoSansCyrl-900</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PMSocialsView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="PMSocialsView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgBottom" translatesAutoresizingMaskIntoConstraints="NO" id="tZ8-gf-TpY" customClass="PMAspectFitImageView">
+                    <rect key="frame" x="0.0" y="50" width="375" height="617"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJe-aJ-hWs">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <color key="backgroundColor" red="0.9137254901960784" green="0.33333333333333331" blue="0.22352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="KOl-hg-XjU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MuseoSansCyrl-900" family="Museo Sans Cyrl" pointSize="17"/>
+                    <state key="normal" title="Все кейсы">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z0B-h5-rQ7">
+                    <rect key="frame" x="17" y="67" width="341" height="583"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="7U2-YS-6mG">
+                            <rect key="frame" x="0.0" y="0.0" width="341" height="583"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AYi-8G-DRw">
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="471"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Подписывайся на нас в соцсетях" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8e-kJ-2Pb">
+                                            <rect key="frame" x="34" y="212" width="273" height="46"/>
+                                            <fontDescription key="fontDescription" name="MuseoSansCyrl-700" family="Museo Sans Cyrl" pointSize="19"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                                            <variation key="widthClass=regular">
+                                                <fontDescription key="fontDescription" name="MuseoSansCyrl-700" family="Museo Sans Cyrl" pointSize="37"/>
+                                            </variation>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="v8e-kJ-2Pb" secondAttribute="trailing" constant="34" id="BuJ-ox-XjC"/>
+                                        <constraint firstItem="v8e-kJ-2Pb" firstAttribute="centerY" secondItem="AYi-8G-DRw" secondAttribute="centerY" id="Oxy-3a-lCl"/>
+                                        <constraint firstItem="v8e-kJ-2Pb" firstAttribute="leading" secondItem="AYi-8G-DRw" secondAttribute="leading" constant="34" id="ezN-VQ-7kE"/>
+                                        <constraint firstItem="v8e-kJ-2Pb" firstAttribute="centerX" secondItem="AYi-8G-DRw" secondAttribute="centerX" id="fau-mT-IVt"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c61-Ly-Snk">
+                                    <rect key="frame" x="0.0" y="471" width="341" height="112"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="stE-oU-prZ">
+                                            <rect key="frame" x="31" y="14" width="280" height="84"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvR-Vv-Ahu">
+                                                    <rect key="frame" x="0.0" y="0.0" width="84" height="84"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="WvR-Vv-Ahu" secondAttribute="height" multiplier="1:1" id="IWf-Al-4Ia"/>
+                                                        <constraint firstAttribute="width" constant="84" id="QMd-78-Nff"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                                                    <state key="normal" backgroundImage="twitter_fill"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NXe-LH-UMf">
+                                                    <rect key="frame" x="98" y="0.0" width="84" height="84"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="84" id="Lqc-I7-40k"/>
+                                                        <constraint firstAttribute="width" secondItem="NXe-LH-UMf" secondAttribute="height" multiplier="1:1" id="zxi-i8-vUg"/>
+                                                    </constraints>
+                                                    <state key="normal" backgroundImage="facebook_fill"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIj-aL-Gz3">
+                                                    <rect key="frame" x="196" y="0.0" width="84" height="84"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="84" id="8zN-gF-J0N"/>
+                                                        <constraint firstAttribute="width" secondItem="aIj-aL-Gz3" secondAttribute="height" multiplier="1:1" id="LrV-En-sUu"/>
+                                                    </constraints>
+                                                    <state key="normal" backgroundImage="in_fill"/>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="stE-oU-prZ" firstAttribute="centerY" secondItem="c61-Ly-Snk" secondAttribute="centerY" id="F9g-FA-S2E"/>
+                                        <constraint firstItem="stE-oU-prZ" firstAttribute="centerX" secondItem="c61-Ly-Snk" secondAttribute="centerX" id="ZYH-L7-t4x"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="7U2-YS-6mG" firstAttribute="leading" secondItem="Z0B-h5-rQ7" secondAttribute="leading" id="7sO-Wb-tob"/>
+                        <constraint firstItem="7U2-YS-6mG" firstAttribute="top" secondItem="Z0B-h5-rQ7" secondAttribute="top" id="OPM-fa-oet"/>
+                        <constraint firstAttribute="bottom" secondItem="7U2-YS-6mG" secondAttribute="bottom" id="SnT-PW-YGc"/>
+                        <constraint firstAttribute="trailing" secondItem="7U2-YS-6mG" secondAttribute="trailing" id="wtj-Ea-bOa"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidh">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XJe-aJ-hWs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4hb-cP-De2"/>
+                <constraint firstItem="XJe-aJ-hWs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="74M-Lo-ZRn"/>
+                <constraint firstAttribute="trailing" secondItem="Z0B-h5-rQ7" secondAttribute="trailing" constant="17" id="E3E-z6-Qe2"/>
+                <constraint firstItem="tZ8-gf-TpY" firstAttribute="top" secondItem="XJe-aJ-hWs" secondAttribute="bottom" id="Gz5-6o-AUC"/>
+                <constraint firstAttribute="bottom" secondItem="Z0B-h5-rQ7" secondAttribute="bottom" constant="17" id="OYB-dL-GvQ"/>
+                <constraint firstItem="Z0B-h5-rQ7" firstAttribute="top" secondItem="XJe-aJ-hWs" secondAttribute="bottom" constant="17" id="Viz-bZ-CuD"/>
+                <constraint firstAttribute="trailing" secondItem="XJe-aJ-hWs" secondAttribute="trailing" id="W8c-Es-iyU"/>
+                <constraint firstAttribute="trailing" secondItem="tZ8-gf-TpY" secondAttribute="trailing" id="ZeC-gt-EID"/>
+                <constraint firstItem="tZ8-gf-TpY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jgW-HM-iXP"/>
+                <constraint firstItem="Z0B-h5-rQ7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="17" id="sjE-Jg-cBp"/>
+                <constraint firstAttribute="bottom" secondItem="tZ8-gf-TpY" secondAttribute="bottom" id="zCN-3U-Zdr"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="-259" y="-91"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bgBottom" width="375" height="209"/>
+        <image name="facebook_fill" width="64" height="63"/>
+        <image name="in_fill" width="64" height="63"/>
+        <image name="twitter_fill" width="64" height="63"/>
+    </resources>
+</document>

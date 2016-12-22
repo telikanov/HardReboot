@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Portfolio
+
+  Created by Алексей Теликанов on 09.11.16.
+  Copyright © 2016 Perpentuum Mobile lab. All rights reserved.
+*/
+
+//Side menu
+"menu.case" = "Журнал событий";
+"menu.contact" = "Перезагрузить";
+"menu.vacancies" = "Выход";
+"menu.request" = "Оставить заявку";
+
+"request.phone.textField" = "+7 (906) 123 45 67";
+
